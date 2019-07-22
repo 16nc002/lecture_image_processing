@@ -7,7 +7,7 @@ imagesc(ORG); axis image; % 画像の表示
 
 によって，原画像を読み込み，表示した結果を図１に示す．
 
-![原画像](https://github.com/16nc002/lecture_image_processing/blob/master/image/kadai1-1.jpg)  
+![原画像](https://github.com/16nc002/lecture_image_processing/blob/master/image/history_niwa_yasujiro_02.jpg)  
 図1 原画像
 
 原画像を1/2サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．なお，拡大する際には，単純補間するために「box」オプションを設定する．
@@ -17,7 +17,7 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 1/2サンプリングの結果を図２に示す．
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/kadai1_1.png?raw=true)  
+![原画像](https://github.com/16nc002/lecture_image_processing/blob/master/image/kadai1-1.jpg)  
 図2 1/2サンプリング
 
 同様に原画像を1/4サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．すなわち，
